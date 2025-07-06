@@ -1,0 +1,26 @@
+Tema3 - PCLP
+
+Task1:
+
+-1.1 - efectiv am citit o data din fisier pentru a numara studentii inrolarile si materiile apoi am folosit fseek
+pentru a citi din nou continutul secretariatului;
+
+-1.2 - am adaugat un student :)
+
+-1.3 - am facut cateva free-uri corespunzatoare fiecarei structuri din secretariat: studenti, materii, inrolari
+apoi am setat cu NULL valoarea pointerului *s;
+
+Task2:
+
+Pentru toate subtask-urile am creat functii pentru fiecare parte din executie care se repeta de mai multe ori, cum
+ar fi: interogare_studenti, interogare_materie, interogare_inrolare care verifica o singura filtrare indiferent
+de ce operatie facem (SELECT, UPDATE, DELETE), daca avem nevoie de filtrare complexa pur si simplu apelam inca o
+data aceeasi functie, iar rezultatele interogarilor le salvam in 2 vectori: afisari si afisari2 care initial au
+pe toate pozitiile 1 (in cazul in care facem SELECT fara filtrare) si pentru afisare am folosit din nou functii corespunzatoare pentru fiecare structura:
+afisare_studenti, afisare_inrolari, afisare_materii, pentru a putea fi afisat un element de pe pozitia i dintr-o structura trebuie sa aiba in final afisari[i] si afisari2[i] egale cu 1. 
+Am mai folosit si alte functii care sa mai salveze linii de cod precum verif_sir, verif_int, verif_float care se
+ocupa cu verificarea efectiva a valorilor in cazul unei filtrari (interogare).
+
+Task3:
+
+Am urmat cu atentie instructiunile din enuntul temei si am realizat criptarea.
