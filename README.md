@@ -84,8 +84,3 @@ make               # Build the program
 make run           # Run the main program with input file
 make valgrind      # Run Valgrind for memory check
 ```
-
-## Course Info
-
-📚 **Computer Programming (CB & CD)** — 2024  
-🧠 **Task Score:** 100/100
