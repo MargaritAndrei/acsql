@@ -1,4 +1,4 @@
-# ACSQL – Student Database Engine | PCLP Assignment 3
+# ACSQL – Student Database Engine
 
 This project implements a simplified **relational database system** in C, called **ACSQL**, designed to manage students, courses, and their enrollments. It was created as part of the third programming assignment for the _Computer Programming_ course (PCLP).
 
